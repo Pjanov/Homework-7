@@ -9,7 +9,7 @@ def write_file(data: str, file_name: str) -> str:
         return file.writelines(data)
 
 
-def read_data(file_name: str) -> str:
+def read_data(file_name: str) -> list:
     '''
     Считывает все данные из файла
     :param file_name: принемает имя и путь к файлу
