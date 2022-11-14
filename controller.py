@@ -32,8 +32,8 @@ def import_data() -> str:
 
 
 def menu():
-    exit = 1
-    while exit == 1:
+    ex = 1
+    while ex == 1:
         print()
         print('МЕНЮ ПРИЛОЖЕНИЯ')
         print('1 => Добавить запись в телефонный справочник')
@@ -51,7 +51,7 @@ def menu():
             print('нет такого пункта')
             continue
         print()
-        exit = int(input('ХОТИТЕ ПРОДОЛЖИТЬ? (1 => да, 0 => нет): '))
+        ex = int(input('ХОТИТЕ ПРОДОЛЖИТЬ? (1 => да, 0 => нет): '))
 
 
 if __name__ == '__main__':
